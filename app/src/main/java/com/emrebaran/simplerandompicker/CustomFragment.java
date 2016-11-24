@@ -92,6 +92,32 @@ public class CustomFragment extends Fragment {
         });
 
 
+
+        listSelected.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                array_selected.remove(position);
+
+                array_sequence = new ArrayList<String>();
+
+                for(int s=0; s<array_selected.size();s++) {
+
+                    array_sequence.add(String.valueOf(s+1)+".");
+
+
+                }
+
+                ListAdapterLetters adapterx = new ListAdapterLetters(getActivity(), array_sequence, array_selected);
+                listSelected.setAdapter(adapterx);
+
+                edtHowMany.setText(String.valueOf(Integer.parseInt(edtHowMany.getText().toString())-1));
+
+                return false;
+            }
+        });
+
+
         array_added = new ArrayList<String>();
         array_added_sequence = new ArrayList<String>();
 

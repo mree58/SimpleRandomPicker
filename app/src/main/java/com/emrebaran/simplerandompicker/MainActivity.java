@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             View layout = inflater.inflate(R.layout.layout_about, (ViewGroup) findViewById(R.id.popup_1));
 
             float popupWidth = 330*metrics.scaledDensity;
-            float popupHeight = 460*metrics.scaledDensity;
+            float popupHeight = 440*metrics.scaledDensity;
 
             pwa = new PopupWindow(context);
             pwa.setContentView(layout);

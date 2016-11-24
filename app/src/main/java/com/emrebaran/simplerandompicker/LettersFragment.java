@@ -54,6 +54,32 @@ public class LettersFragment extends Fragment {
 
             }
         });
+
+
+        listLetters.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                array_letters.remove(position);
+
+                array_sequence = new ArrayList<String>();
+
+                for(int s=0; s<array_letters.size();s++) {
+
+                    array_sequence.add(String.valueOf(s+1)+".");
+
+
+                }
+
+                ListAdapterLetters adapterx = new ListAdapterLetters(getActivity(), array_sequence, array_letters);
+                listLetters.setAdapter(adapterx);
+
+                edtHowMany.setText(String.valueOf(Integer.parseInt(edtHowMany.getText().toString())-1));
+
+                return false;
+            }
+        });
+
         FloatingActionButton btnRandomLetter = (FloatingActionButton)viewLetters.findViewById(R.id.btnRandomLetter);
         btnRandomLetter.setOnClickListener(new View.OnClickListener() {
             @Override

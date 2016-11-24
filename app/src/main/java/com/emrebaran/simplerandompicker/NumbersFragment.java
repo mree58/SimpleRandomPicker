@@ -52,6 +52,30 @@ public class NumbersFragment extends Fragment {
         });
 
 
+        listNumbers.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                array_numbers.remove(position);
+
+                array_sequence = new ArrayList<String>();
+
+                for(int s=0; s<array_numbers.size();s++) {
+
+                    array_sequence.add(String.valueOf(s+1)+".");
+
+
+                }
+
+                ListAdapterNumbers adapterx = new ListAdapterNumbers(getActivity(), array_sequence, array_numbers);
+                listNumbers.setAdapter(adapterx);
+
+                edtHowMany.setText(String.valueOf(Integer.parseInt(edtHowMany.getText().toString())-1));
+
+                return false;
+            }
+        });
+
         FloatingActionButton btnRandomNumber = (FloatingActionButton)viewNumbers.findViewById(R.id.btnRandomNumber);
         btnRandomNumber.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -14,7 +14,7 @@
     <string name="about_application">Bu uygulama açık-kaynak bir yazılımdır. Kaynak kodları GitHub\'da bulabilirsiniz: mree58 \nFikirlerinizi paylaşmak istiyorsanız veya uygulama ile ilgili sorun yaşıyorsanız lütfen iletişime geçin. Mail: emrebaran.ceng@gmail.com</string>
     <string name="about_title_permissions">İzinler Hakkında</string>
     <string name="about_permissions">Uygulamayı çalıştırabilmek için herhangi bir izin gerekmemektedir.</string>
-    <string name="about_application_version">Uygulama Versiyonu: 1.0.0</string>
+    <string name="about_application_version">Uygulama Versiyonu: 1.1.0</string>
     <string name="about_supported_languages">Desteklenen Diller: English, Türkçe</string>
 
     <string name="tab1">SAYILAR</string>
