@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:clickable="false"
+	android:descendantFocusability="blocksDescendants"
+	>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="0dp"
+		>
+
+		<TextView
+			android:id="@+id/item_sequence"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_marginLeft="10dp"
+			android:layout_weight="1"
+			android:gravity="center|left"
+			android:layout_gravity="center"
+			android:text="Emre"
+			android:textColor="@color/black"
+			/>
+
+		<TextView
+			android:id="@+id/item_number"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="3"
+			android:layout_marginRight="20dp"
+			android:gravity="center|right"
+			android:layout_gravity="center"
+			android:text="Baran"
+			android:textColor="@color/black"
+			/>
+
+
+	</TableRow>
+
+</TableLayout>

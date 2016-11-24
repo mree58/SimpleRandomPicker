@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Simple Random Picker</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_rate">Rate App</string>
+
+    <string name="action_help_message">Click list item to highlight it !\nLong click list item to remove it !</string>
+
+    <string name="about_title_simplerandompicker">Simple Random Picker</string>
+    <string name="about_simplerandompicker">This mobile application designed and coded by Emre Baran. Some icons and graphs have CC-BY License. Some of them are free for personal and commercial use. And a few of them are designed by me.</string>
+    <string name="about_title_special_thanks">Special Thanks</string>
+    <string name="about_special_thanks">Mohit Gupt : Thank you for Android Tabs Example With Fragments and ViewPager.\Mükremin Yücel : Thank you for beta testing and sharing your ideas.</string>
+    <string name="about_title_application">About Application</string>
+    <string name="about_application">This application is open-source software. You can find the source codes on GitHub: mree58 \nFeel free to contact if you have any ideas or problems with application. Mail: emrebaran.ceng@gmail.com</string>
+    <string name="about_title_permissions">About Permissions</string>
+    <string name="about_permissions">No permissions needed to run application !</string>
+    <string name="about_application_version">Application Version: 1.0.0</string>
+    <string name="about_supported_languages">Supported Languages: English, Türkçe</string>
+
+    <string name="tab1">NUMBERS</string>
+    <string name="tab2">LETTERS</string>
+    <string name="tab3">CUSTOM</string>
+
+    <string name="warning_blank">Values cannot be blank !</string>
+    <string name="warning_range">Range is not valid !</string>
+
+    <string name="hint_min">Min</string>
+    <string name="hint_max">Max</string>
+    <string name="hint_howmany">How Many</string>
+    <string name="hint_letters">Letters</string>
+    <string name="hint_item">Item</string>
+    <string name="hint_clear">Clear\nAfter\nAdding</string>
+    <string name="hint_added">Added</string>
+    <string name="hint_selected">Selected</string>
+
+    <string name="app_exit">Press Again To Exit</string>
+
+</resources>

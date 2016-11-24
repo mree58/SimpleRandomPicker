@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Rastgele Seçici</string>
+    <string name="action_help">Yardım</string>
+    <string name="action_about">Hakkında</string>
+    <string name="action_rate">Google Play\'de Oylayın</string>
+
+    <string name="action_help_message">Listedeki öğeyi vurgulamak için üzerine tıklayın !\nListedeki öğeyi silmek için üzerine uzun tıklayın!</string>
+
+    <string name="about_title_simplerandompicker">Rastgele Seçici</string>
+    <string name="about_simplerandompicker">Bu mobil uygulama Emre Baran tarafından tasarlanmış ve kodlanmıştır. Bazı ikonlar ve görseller CC-BY Lisansı\'na sahiptir. Bir kısmının kişisel ve ticari kullanımı serbesttir. Az bir kısmı benim tarafımdan tasarlanmıştır.</string>
+    <string name="about_title_special_thanks">Özel Teşekkür</string>
+    <string name="about_special_thanks">Mohit Gupt : Fragment ve ViewPager kullanarak Android\'de Sekme örneği için teşekkürler.\nMükremin Yücel : Uygulamayı test edip fikirlerini paylaştığın için teşekkürler.</string>
+    <string name="about_title_application">Uygulama Hakkında</string>
+    <string name="about_application">Bu uygulama açık-kaynak bir yazılımdır. Kaynak kodları GitHub\'da bulabilirsiniz: mree58 \nFikirlerinizi paylaşmak istiyorsanız veya uygulama ile ilgili sorun yaşıyorsanız lütfen iletişime geçin. Mail: emrebaran.ceng@gmail.com</string>
+    <string name="about_title_permissions">İzinler Hakkında</string>
+    <string name="about_permissions">Uygulamayı çalıştırabilmek için herhangi bir izin gerekmemektedir.</string>
+    <string name="about_application_version">Uygulama Versiyonu: 1.0.0</string>
+    <string name="about_supported_languages">Desteklenen Diller: English, Türkçe</string>
+
+    <string name="tab1">SAYILAR</string>
+    <string name="tab2">HARFLER</string>
+    <string name="tab3">ÖZEL</string>
+
+    <string name="warning_blank">Değerler boş olamaz !</string>
+    <string name="warning_range">Aralık geçerli değil !</string>
+
+    <string name="hint_min">Min</string>
+    <string name="hint_max">Maks</string>
+    <string name="hint_howmany">Kaç Tane</string>
+    <string name="hint_letters">Harfler</string>
+    <string name="hint_item">Öğe</string>
+    <string name="hint_clear">Ekledikten\nSonra\nTemizle</string>
+    <string name="hint_added">Eklenenler</string>
+    <string name="hint_selected">Seçilenler</string>
+
+    <string name="app_exit">Çıkmak için tekrar basın</string>
+
+</resources>
